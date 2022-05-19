@@ -1,0 +1,15 @@
+{
+    "name": "Hustle University 2.0 | Escape The Matrix",
+    "short_name": "Hustle University 2.0 | Escape The Matrix",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "hustleu2.com",
+    "display": "standalone"
+}

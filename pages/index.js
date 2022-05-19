@@ -32,6 +32,15 @@ export default function Home() {
             allowFullScreen
           />
 
+          <p
+            className={styles.description}
+            style={{ maxWidth: 520, margin: "1rem auto" }}
+          >
+            Learn Stock Analysis, Options Plays, Crypto Analysis, DeFi,
+            E-commerce, Copywriting, Freelancing, Flipping, Financial planning,
+            Affiliate Marketing, Business management, and MORE
+          </p>
+
           <div className={styles.grid}>
             <a href="http://hustleu2.com" className={styles.card}>
               Get Started
@@ -40,20 +49,23 @@ export default function Home() {
         </main>
 
         <footer className={styles.footer}>
-          <p>Marketing Automation Powered by</p>
           <a
             href="https://buildleansaas.com?aff=andrew-tate"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className={styles.logo}></span>
-            <Image
-              src="/bls.png"
-              alt="Build Lean SaaS Logo"
-              width={42}
-              height={42}
-            />{" "}
-            Build Lean SaaS
+            <span className={styles.logo}>
+              Powered By{" "}
+              <span style={{ paddingLeft: "0.25rem", paddingRight: "0.25rem" }}>
+                <Image
+                  src="/bls.png"
+                  alt="Build Lean SaaS Logo"
+                  width={42}
+                  height={42}
+                />
+              </span>{" "}
+              Build Lean SaaS
+            </span>
           </a>
         </footer>
       </div>
